@@ -1,0 +1,8 @@
+language: csharp
+solution: Maths.sln
+install:
+  - nuget restore Maths.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release Maths.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Maths.Test/bin/Release/MyProject.Test.dll

@@ -1,0 +1,7 @@
+properties:
+  cc:
+    stacks:
+    - name: "windows2012"
+      description: "Windows Server 2012 (64-bit)"
+    - name: "cflinuxfs2"
+      description: "Cloud Foundry Linux-based filesystem"

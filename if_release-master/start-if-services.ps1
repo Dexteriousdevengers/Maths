@@ -1,0 +1,1 @@
+Write-Host "Starting IronFoundry for .NET Services..."Start-Service IronFoundry.Dea.DirectoryStart-Service IronFoundry.WardenStart-Service Ironfoundry.Dea

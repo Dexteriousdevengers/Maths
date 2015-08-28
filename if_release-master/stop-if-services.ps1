@@ -1,0 +1,1 @@
+Write-Host "Stopping IronFoundry for .NET Services..."Stop-Service Ironfoundry.DeaStop-Service IronFoundry.Dea.DirectoryStop-Service IronFoundry.Warden

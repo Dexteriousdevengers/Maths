@@ -9,6 +9,7 @@ namespace SimpleMath
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Enter two numbers\n");

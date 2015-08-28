@@ -1,0 +1,6 @@
+[http]
+  proxy = htttp://proxy.ebiz.verizon.com:80
+  
+[https]
+  proxy = htttp://proxy.ebiz.verizon.com:80
+  

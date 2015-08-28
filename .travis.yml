@@ -6,4 +6,13 @@ install:
 script: 
   - xbuild /p:Configuration=Release Maths.sln 
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Maths.Test/bin/Release/Maths.Test.dll
+ deploy:
+   edge: true
+   provider: cloudfoundry
+   username: prabhu.p@verizon.com
+   password: >;TRbn7pwYN-
+   api: https://api.beta.ironfoundry.me
+   organization: HackVeriDD
+   space: development
+
 
